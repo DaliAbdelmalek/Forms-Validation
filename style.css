@@ -1,0 +1,88 @@
+body{
+    background:  url('image/bottle-brand-chrome-67112.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Walsheim,sans-serif;
+    color: rgb(204, 204, 204);
+}
+.sign{
+    background: rgba(27, 31, 36, 0.9);
+    padding: 40px;
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    height: 450px;
+    border: 2px solid black;
+}
+
+.titre{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    margin-top: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    color: white;
+}
+.column{
+    height: 35px;
+    background-color: rgba(71, 75, 80, 0.9);
+    border-radius: 5px;
+    border: none;
+    border-left: 3px solid rgb(184, 173, 173);
+}
+.comment{
+    height: 40px;
+    width: 350px;
+    margin-top: 13px;
+    background-color: rgba(71, 75, 80, 0.9);
+    border-radius: 5px;
+    border:none;
+    border-left: 3px solid rgb(184, 173, 173);
+    color: white;
+}
+.phrase{
+    margin-top:7px;
+}
+.gender{
+    padding-top: 0px;
+}
+.button{    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 350px;
+    margin-top: 28px;
+    text-align: center;
+    
+}
+.button1{
+    background-color: rgb(255, 169, 9) ;
+    padding: 10px 158px;
+    border-radius: 2px;
+    cursor:pointer;
+    border: none;
+    color: white;
+}
+.button1:hover{
+    background-color: rgba(255, 169,9, 0.6)
+}
+.button2:hover{
+    background-color: rgba(255, 169,9, 0.6)
+}
+.button2{
+    background-color: rgb(255, 169, 9) ;
+    padding: 10px 158px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor:pointer;
+    border: none;
+    color:white;
+}
+   
+
